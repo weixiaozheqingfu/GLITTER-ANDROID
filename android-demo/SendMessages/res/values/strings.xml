@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">短信发送器</string>
+    <string name="sendmessages_tv_input_phone">请输入电话号码</string>
+	<string name="sendmessages_tv_input_messages">请输入短信内容</string>
+	<string name="sendmessages_btn_send">发送</string>
+	
+</resources>

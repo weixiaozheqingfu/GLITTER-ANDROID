@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    <EditText 
+        android:id="@id/login_et_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/edit_text"
+        android:hint="@string/login_et_user_name"
+        android:inputType="text" />
+
+    <EditText 
+        android:id="@id/login_et_user_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@android:drawable/edit_text"
+        android:hint="@string/login_et_user_password"
+        android:inputType="textPassword" />
+    <RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+	    <CheckBox
+	        android:id="@id/login_cb_remember_password"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/login_cb_remember_password"
+	        android:checked="false" />
+	    <CheckBox
+	        android:id="@id/login_cb_automatic"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/login_cb_remember_password"
+	        android:text="@string/login_cb_automatic"
+	        android:checked="false" />
+	    <Button
+	        android:id="@id/login_btn_land"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/login_cb_automatic"
+	        android:height="12dp"
+	        android:text="@string/login_btn_land" />
+	</RelativeLayout>
+
+	<ProgressBar
+	    android:id="@id/login_pgBar"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="110dp"
+	    android:visibility="invisible" />
+
+</LinearLayout>

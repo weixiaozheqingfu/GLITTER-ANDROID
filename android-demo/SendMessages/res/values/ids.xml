@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="sendmessages_tv_input_phone" type="id" />
+    <item name="sendmessages_et_input_phone" type="id" />
+    <item name="sendmessages_tv_input_messages" type="id" />
+    <item name="sendmessages_et_input_messages" type="id" />
+    <item name="sendmessages_btn_send" type="id" />
+</resources>

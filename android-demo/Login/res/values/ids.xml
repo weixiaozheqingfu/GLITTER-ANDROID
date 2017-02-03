@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 登陆页面id信息集合开始 -->
+    <item name="login_et_user_name" type="id" />
+    <item name="login_et_user_password" type="id" />
+    <item name="login_cb_remember_password" type="id" />
+    <item name="login_cb_automatic" type="id" />
+    <item name="login_btn_land" type="id" />
+    <item name="login_pgBar" type="id" />
+    <!-- 登陆页面id信息集合结束 -->
+    
+    <!-- 首页面id信息集合开始 -->
+    <item name="home_tv_welcome" type="id" />
+    <item name="home_btn_back" type="id" />
+    <!-- 首页面id信息集合结束 -->
+    
+</resources>

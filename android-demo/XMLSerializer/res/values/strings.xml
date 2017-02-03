@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">XML序列化</string>
+    <string name="xml_serializer">XML序列化</string>
+    <string name="xml_parser">XML解析器</string>
+</resources>
